@@ -3,7 +3,7 @@
 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。假定该字符串只包含小写字母。
 
 
-  int return_index(string input){
+	  int return_index(string input){
 	  int character[26];
 	  for(int i =0; i < 26;i++)
 	 	  character[i] = 0;
